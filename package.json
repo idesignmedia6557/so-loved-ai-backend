@@ -1,0 +1,26 @@
+{
+  "name": "so-loved-ai-backend",
+  "version": "1.0.0",
+  "description": "Backend API infrastructure for So Loved Helping Hands AI automation system",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'Build complete'",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@google-cloud/sheets": "^4.0.0",
+    "googleapis": "^126.0.0",
+    "nodemailer": "^6.9.7",
+    "twilio": "^4.20.0",
+    "pdf-parse": "^1.1.1",
+    "axios": "^1.6.2"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": ["ai", "automation", "npo", "so-loved"],
+  "author": "So Loved Helping Hands",
+  "license": "MIT"
+}
